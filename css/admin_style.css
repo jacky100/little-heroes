@@ -1,0 +1,107 @@
+/*ADMIN PAGE*/
+
+body{
+    background-color: lightyellow;
+    margin:2%;
+    padding:5%;
+}
+
+
+
+h1{
+    font-family: Arial; 
+    color: orange;
+    text-align: center; 
+}
+
+h2{
+    font-family: Arial;  
+}
+
+p{
+        font-family: Arial;
+        font-size: 15px;
+}
+
+    
+a.del{
+    text-decoration: none;
+    color: green;
+    font-family: Arial;
+    font-size: 15px;
+    float: right;
+       
+     
+}
+
+a.edit{
+    text-decoration: none;
+    color: green;
+    font-family: Arial;
+    font-size: 15px;
+    
+       
+     
+}
+
+a.post{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+a.submit{
+    text-decoration: none;
+    display: block;
+    color:rebeccapurple;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight:bold;
+}
+    
+p.submit{
+    text-align: center;
+}
+
+
+    
+.column1 {
+    float:left;
+    text-align: right;
+    width: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+     
+  }
+
+  .column2 {
+    float:left;
+    text-align: left;
+    width: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+     
+  }
+
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  a.button{
+    background-color: purple;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 0px;
+    cursor: pointer;
+
+  }
+  
